@@ -1,0 +1,39 @@
+.sobre-mi {
+    display: flex;
+    justify-content: center; /* Centra los elementos */
+    align-items: flex-start; /* Alinea la parte superior de las tarjetas */
+    padding: 100px 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    gap: 40px; /* Reduce el espacio entre los cuadrados */
+}
+
+.cuadrado {
+    background-color: lightblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 42%; /* Ajusta el ancho para que se acerquen más */
+    box-sizing: border-box;
+    min-height: 250px;
+}
+
+.cuadrado h2 {
+    font-size: 1.8rem;
+    color: #292929;
+    margin-bottom: 10px;
+}
+
+.cuadrado p, .cuadrado ul {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.cuadrado ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cuadrado ul li {
+    margin-bottom: 6px;
+}

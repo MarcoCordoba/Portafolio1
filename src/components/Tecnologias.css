@@ -1,0 +1,53 @@
+.tecnologias {
+    padding: 80px 60px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .tecnologias-titulo {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #292929;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: nowrap; /* esto asegura que no se bajen si hay espacio suficiente */
+    overflow-x: auto;  /* permite scroll horizontal si no entra todo */
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    flex-shrink: 0; /* evita que se encojan */
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #292929;
+  }
+  
+  .tecnologia-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .tecnologia-icons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .tecnologia-icons img:hover {
+    transform: scale(1.1);
+  }
+  

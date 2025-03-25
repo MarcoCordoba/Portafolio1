@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #292929;
+    padding: 0 1rem;
+    z-index: 1000; /*es para que la barra este por encima de todo*/
+    height: 70px; /*altura fija para todo el navbar*/
+    display: flex; /*pone los elemnetos uno al lado del otro*/; 
+    justify-content: space-between; /*separa nombre y links*/;
+    align-items: center; /*alinea todo*/
+    position: fixed; /*se queda fijo arriba el nav*/
+    top: 0; /*ocupa todo el largo*/
+    left: 0;/*ocupa todo el ancho*/
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar ul{
+    list-style: none; /*elimina los puntos de la lista*/ 
+    display: flex; /*pone los enlaces uno al lado del otro*/
+    justify-content: flex-end; /*los ubica a la derecha*/
+    align-items: center;;
+    gap: 2rem; /*espacio entre los enlaces*/
+    margin: 0;
+    padding: 0;
+}
+
+.a{
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-decoration: none; /*le saco el subrayado a los enlaces*/
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}   
+
+.nombre_nav{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+}
