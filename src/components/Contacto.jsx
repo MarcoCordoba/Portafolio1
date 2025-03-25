@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contacto.css";
+import LinkedIn from "./icons/LinkedIn";
+import Github from "./icons/Github";
 
 const Contacto = () => {
     return(
@@ -19,8 +21,17 @@ const Contacto = () => {
             <div className="contacto-informacion">
                 <h3>Redes de contacto</h3>
                 <ul>
-                    <li> <a href="https://www.linkedin.com/in/marco-cordoba-/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
-                    <li><a href="https://github.com/MarcoCordoba" target="_blank" rel="noopener noreferrer">Github</a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/marco-cordoba-/" target="_blank" rel="noopener noreferrer">
+                            <LinkedIn className="icono" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/MarcoCordoba" target="_blank" rel="noopener noreferrer">
+                            <Github className = "icono"/>
+                        </a>
+                    </li>
                 </ul>
             </div>
             
