@@ -8,6 +8,9 @@ import Python from "./icons/Python"
 import Django from "./icons/Django"
 import PostgreSQL from "./icons/PostgreSQL"
 import ReactI from "./icons/ReactI"
+import Javascript from "./icons/Javascript"
+import Bash from "./icons/Bash"
+import Notion from "./icons/Notion"
 
 const Tecnologias = () =>{
     return(
@@ -19,14 +22,15 @@ const Tecnologias = () =>{
                     <div className="tecnologia-icons">
                         <Css/>
                         <Html5/>
-                        <ReactI/>
+                        <Javascript/>                     
+                        <ReactI/>                      
                     </div>
                 </div>
                 <div className="card">
                     <h3>Backend</h3>
                     <div className="tecnologia-icons">
-                        <Python/>
-                        <Django/>
+                        <Python/>                      
+                        <Django/>            
                         <PostgreSQL/>
                     </div>
                 </div>
@@ -34,7 +38,9 @@ const Tecnologias = () =>{
                     <h3>Herramientas</h3>
                     <div className="tecnologia-icons">
                         <Git />
-                        <Github/> 
+                        <Github/>
+                        <Bash/>
+                        <Notion/>
                     </div>
                 </div>
             </div>

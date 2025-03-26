@@ -21,6 +21,7 @@
     gap: 2rem; /*espacio entre los enlaces*/
     margin: 0;
     padding: 0;
+    margin-right: 3rem;
 }
 
 .a{
@@ -37,4 +38,6 @@
     font-weight: bold;
     line-height: 1;
     color: #ffffff;
+    text-decoration:none;
+    margin-left: 3rem;
 }

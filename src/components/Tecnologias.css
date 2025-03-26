@@ -1,53 +1,63 @@
 .tecnologias {
-    padding: 80px 60px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .tecnologias-titulo {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: #292929;
-  }
-  
-  .cards-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2rem;
-    flex-wrap: nowrap; /* esto asegura que no se bajen si hay espacio suficiente */
-    overflow-x: auto;  /* permite scroll horizontal si no entra todo */
-  }
-  
-  .card {
-    background-color: #ffffff;
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    flex-shrink: 0; /* evita que se encojan */
-  }
-  
-  .card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: #292929;
-  }
-  
-  .tecnologia-icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  .tecnologia-icons img {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.3s ease;
-  }
-  
-  .tecnologia-icons img:hover {
-    transform: scale(1.1);
-  }
-  
+  padding: 90px 60px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.tecnologias-titulo {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #292929;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem; /* Reducción del espacio entre cards */
+  flex-wrap: nowrap; /* Asegura que las cards no bajen */
+  overflow-x: auto; /* Permite desplazamiento horizontal si es necesario */
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  height: 350px; /* Ajuste de altura para que se vea mejor */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Esto asegura que el contenido se alinee al principio */
+}
+
+.card h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem; /* Menos espacio entre el título y los íconos */
+  margin-top: 0;
+  color: #292929;
+}
+
+.tecnologia-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem; /* Menos espacio antes de los íconos */
+}
+
+.tecnologia-icons svg {
+  width: 70px;
+  height: 70px;
+  transition: transform 0.3s ease;
+}
+
+.tecnologia-icons svg:hover {
+  transform: scale(1.2);
+}
+
+.tecnologia-icons p{
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #292929;
+}

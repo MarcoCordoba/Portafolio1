@@ -1,0 +1,40 @@
+.footer {
+    background-color: #292929;
+    padding: 0 1rem;
+    z-index: 1000; /*es para que la barra este por encima de todo*/
+    height: 70px; /*altura fija para todo el navbar*/
+    display: flex; /*pone los elemnetos uno al lado del otro*/; 
+    justify-content: center;
+    gap: 1rem;;
+    align-items: center; /*alinea todo*/
+    top: 0; /*ocupa todo el largo*/
+    left: 0;/*ocupa todo el ancho*/
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.2rem; /* Reduce el tamaño del texto */
+  white-space: nowrap; /* Evita que se divida en varias líneas */
+}
+
+.footer-redes {
+  display: flex;
+  gap: 0.8rem; /* Espacio entre iconos más pequeño */
+}
+
+.footer-redes a {
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.footer-redes a:hover {
+  transform: scale(1.1);
+}
+
+.icono {
+  width: 25px; /* Iconos más pequeños */
+  height: 25px;
+  fill: white;
+}
