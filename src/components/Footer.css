@@ -11,6 +11,7 @@
     left: 0;/*ocupa todo el ancho*/
     width: 100%;
     box-sizing: border-box;
+    margin-top: 3rem;
 }
 
 .footer p {
