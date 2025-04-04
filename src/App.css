@@ -4,12 +4,23 @@ body{
     padding: 0;
     font-family: "Big Shoulders Stencil", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
     background-color: #f5f5f5;
 }
     
 ul{
     margin: 0;
     padding: 0;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: #000000;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
 }

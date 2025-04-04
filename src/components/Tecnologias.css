@@ -10,9 +10,8 @@
 }
 
 .tecnologias-titulo {
-  font-size: 3rem;
-  margin-bottom: 3rem;
   color: #000000;
+  margin-bottom: 3rem;
 }
 
 .cards-container {
@@ -25,7 +24,7 @@
 
 .card {
   background-color: #ffffff;
-  border-radius: 16px;
+  border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   width: 350px;
@@ -36,10 +35,9 @@
 }
 
 .card h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem; /* Menos espacio entre el título y los íconos */
+  margin-bottom: 1rem;
   margin-top: 0;
-  color: #292929;
+  color: #000000;
 }
 
 .tecnologia-icons {
@@ -60,8 +58,3 @@
   transform: scale(1.2);
 }
 
-.tecnologia-icons p{
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-  color: #292929;
-}

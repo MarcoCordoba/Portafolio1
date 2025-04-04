@@ -19,8 +19,6 @@
     justify-content: flex-end; /*los ubica a la derecha*/
     align-items: center;;
     gap: 2rem; /*espacio entre los enlaces*/
-    margin: 0;
-    padding: 0;
     margin-right: 3rem;
 }
 

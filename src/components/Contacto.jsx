@@ -1,7 +1,5 @@
 import React from "react";
 import "./Contacto.css";
-import LinkedIn from "./icons/LinkedIn";
-import Github from "./icons/Github";
 
 const Contacto = () => {
     return(
