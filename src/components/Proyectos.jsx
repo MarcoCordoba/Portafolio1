@@ -60,10 +60,6 @@ const Proyectos = () => {
                 <a href={proyecto.github} target="_blank" rel="noopener noreferrer" className="proyecto-icon">
                   <GitHub />
                 </a>
-                {proyecto.link && (
-                  <a href={proyecto.link} target="_blank" rel="noopener noreferrer" className="proyecto-icon">
-                  </a>
-                )}
               </div>
             </div>
           </div>
