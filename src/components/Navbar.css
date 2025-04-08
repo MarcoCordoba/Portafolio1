@@ -39,3 +39,18 @@
     text-decoration:none;
     margin-left: 3rem;
 }
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+    display: inline-block;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff; /* O cualquier color que combine con tu paleta */
+    transform: scale(1.05);
+  }
+  
