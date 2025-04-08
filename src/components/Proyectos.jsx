@@ -57,7 +57,7 @@ const Proyectos = () => {
                 ))}
               </div>
               <div className="proyecto-links">
-                <a href={proyecto.github} target="_blank" rel="noopener noreferrer" className="proyecto-icon">
+                <a href={proyecto.github} target="_blank" rel="noopener noreferrer" className="proyecto-icon github-btn">
                   <GitHub />
                 </a>
               </div>

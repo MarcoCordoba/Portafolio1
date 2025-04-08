@@ -102,3 +102,28 @@
   width: 30px;
   height: 30px;
 }
+
+.github-btn {
+  border: 2px solid #333;
+  background-color: transparent;
+  color: #333;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  font-weight: 500;
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.github-btn:hover {
+  background-color: #35353596;
+  color: #fff;
+}
+
+.github-btn svg {
+  width: 20px;
+  height: 20px;
+}
