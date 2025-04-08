@@ -19,23 +19,23 @@ import Negro from "../assets/Images/Negro.jpg"
 const proyectos = [
   {
     titulo: "Gestor de Reservas",
-    descripcion: "Aplicación web para gestionar alquileres temporales",
+    descripcion: "Aplicación web para gestionar el alquiler temporal de inmuebles que contenga el usuario",
     imagen: notetask,
-    tecnologias: [<Django />,<Python/>, <PostgreSQL />, <Html5 />, <Css />],
+    tecnologias: [<Django />,<Python/>, <PostgreSQL />, <Html5 />, <Css />,<Javascript/>, <ReactI/>],
     github: "",
   },
   {
     titulo: "Portafolio Web",
     descripcion: "Mi portafolio personal hecho con React y CSS.",
     imagen: Negro,
-    tecnologias: [<ReactI />, <Css />, <Html5 />, <Javascript />],
+    tecnologias: [ <Html5 />, <Css />, <Javascript />, <ReactI />],
     github: "",
   },
   {
     titulo: "Gestor de Tareas",
     descripcion: "Aplicacion para administrar las tareas de un usuario registrado y logeado.",
     imagen: Negro,
-    tecnologias: [<Django />, <PostgreSQL />, <Html5 />, <Css />, <Javascript />, <Python />],
+    tecnologias: [<Python />, <Django />, <PostgreSQL />, <Html5 />, <Css />, <Javascript />,<ReactI/> ],
     github: "",
   },
 ];

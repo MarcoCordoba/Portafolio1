@@ -40,6 +40,32 @@ h2 {
 
 p {
     font-size: 1.1rem;
-    color: #555;
+    color: #000000;
     line-height: 1.6;
 }
+
+.experiencia-item {
+    text-align: left;
+    margin-top: 1rem;
+  }
+  
+  .experiencia-titulo {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    color: #222;
+  }
+  
+  .experiencia-titulo span {
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: #666;
+    margin-left: 0.5rem;
+  }
+  
+  .experiencia-descripcion {
+    font-size: 1.05rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
