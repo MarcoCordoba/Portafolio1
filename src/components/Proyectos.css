@@ -82,7 +82,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #ffffff1a;
+  background-color: #0A97F5;
   color: #ffffff;
   font-size: 1.2rem;
   transition: background-color 0.3s ease;
@@ -90,7 +90,7 @@
 }
 
 .proyecto-icon:hover {
-  background-color: #ffffff33;
+  background-color: #0A97F5;
 }
 
 .tech-icon svg {
@@ -104,9 +104,9 @@
 }
 
 .github-btn {
-  border: 2px solid #333;
+  border: 2px solid #0A97F5;
   background-color: transparent;
-  color: #333;
+  color: #0A97F5;
   width: auto;
   height: auto;
   padding: 0.5rem 1rem;
@@ -119,7 +119,7 @@
 }
 
 .github-btn:hover {
-  background-color: #35353596;
+  background-color: #0A97F5;
   color: #fff;
 }
 
