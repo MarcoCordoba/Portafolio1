@@ -23,6 +23,9 @@
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 550px; /* o ajustá según tu diseño */
 }
 
 .proyecto-card:hover {
@@ -36,9 +39,12 @@
   object-fit: cover;
 }
 
-.proyecto-content {
+.proyecto-content { 
   padding: 1.5rem;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .proyecto-title {
@@ -70,8 +76,8 @@
 }
 
 .proyecto-links {
+  margin-top: auto;
   display: flex;
-  gap: 1rem;
   align-items: center;
 }
 
