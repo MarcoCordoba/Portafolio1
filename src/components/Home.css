@@ -27,6 +27,11 @@ img {
     width: 90px;  /* Aumenta el tamaño */
     height: 90px; /* Asegura que el tamaño sea uniforme */
     margin-right: 15px; /* Agrega separación entre iconos */
+    transition: transform 0.3s ease;
+}
+
+.icono:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
 }
 
 /*paleta de colores #0A97F5  #120AF5 #0A4CF5 #0AE1F5 #A476F5 #5B86F5*/
