@@ -1,34 +1,116 @@
-.contacto-mensaje {
+/* Sección Contacto */
+.contacto {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem;
+}
+
+.contacto h2 {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+/* Contenedor principal: distribuye las cards y el formulario */
+.contacto-contenido {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 2rem;
+}
+
+/* Contenedor para las cards (columna a la izquierda) */
+.contacto-enlaces {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  flex: 1;
+  max-width: 300px;  /* Se reduce el ancho para cards más pequeñas */
+}
+
+/* Estilos para cada card reducida */
+.contacto-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1rem;        /* Padding reducido */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contacto-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Wrapper para el ícono con fondo redondo */
+.icon-wrapper {
+  background-color: #f1f1f1;
+  padding: 0.8rem;      /* Padding un poco menor */
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tamaño aumentado de los íconos pero ajustado a la nueva card */
+.icon-wrapper svg {
+  width: 48px;         /* Tamaño ligeramente más chico que antes */
+  height: 48px;
+}
+
+/* Título de la card: más pequeño y estilizado */
+.contacto-card h3 {
+  font-size: 0.9rem;   /* Tamaño de fuente reducido */
+  margin-bottom: 0.5rem;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Subtítulo/descripción de la card */
+.contacto-card p {
+  font-size: 0.8rem;
+  color: #555;
+  text-align: center;
+  margin: 0;
+}
+
+/* Formulario a la derecha */
+.contacto-mensaje {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 2rem;
   background-color: #0AE1F5;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   max-width: 450px;
   width: 100%;
-  margin: 0 auto;
+  flex: 1;
 }
-
-.contacto h2{
-  color: #000000;
-  text-align: center;
-  margin-top: 2rem;
-}
-
 
 .contacto-mensaje h3 {
   color: #000000;
-  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .contacto-mensaje form {
-  color: #0AE1F5;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
   width: 100%;
   align-items: center;
 }
@@ -36,25 +118,21 @@
 .contacto-mensaje input,
 .contacto-mensaje textarea {
   width: 100%;
-  max-width: 100%;
   padding: 0.8rem;
   border: 1px solid #0AE1F5;
   border-radius: 12px;
   font-size: 1rem;
   outline: none;
   font-family: "Big Shoulders Stencil", sans-serif;
- 
 }
 
 .contacto-mensaje textarea {
-  resize: vertical;
-  min-height: 120px;
+  min-height: 200px;   /* Área ampliada para mensajes */
   resize: none;
 }
 
 .contacto-mensaje button {
   width: 100%;
-  max-width: 100%;
   padding: 0.8rem;
   background-color: #000000;
   color: white;
@@ -63,10 +141,34 @@
   cursor: pointer;
   font-size: 1.1rem;
   transition: background-color 0.3s ease;
-  text-align: center;
   font-family: "Big Shoulders Stencil", sans-serif;
+  margin-top: 1.5rem;
 }
 
 .contacto-mensaje button:hover {
   background-color: #120AF5;
+}
+
+/* Responsive: en dispositivos pequeños se ajusta la distribución */
+@media screen and (max-width: 768px) {
+  .contacto-contenido {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacto-enlaces {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contacto-card {
+    width: 150px;      /* Ajuste para que las cards sean pequeñas en móvil */
+    margin: 0.5rem;
+  }
+
+  .contacto-mensaje {
+    margin-top: 2rem;
+  }
 }
