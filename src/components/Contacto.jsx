@@ -12,7 +12,7 @@ const Contacto = () => {
       <div className="contacto-contenido">
         <div className="contacto-enlaces">
           <a
-            href="mailto:tuemail@gmail.com"
+            href="marco.cba2@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="contacto-card"
@@ -21,11 +21,11 @@ const Contacto = () => {
               <Gmail />
             </div>
             <h3>Correo</h3>
-            <p>tuemail@gmail.com</p>
+            <p>marco.cba2@gmail.com</p>
           </a>
 
           <a
-            href="https://github.com/tuusuario"
+            href="https://github.com/MarcoCordoba"
             target="_blank"
             rel="noopener noreferrer"
             className="contacto-card"
@@ -34,11 +34,11 @@ const Contacto = () => {
               <Github />
             </div>
             <h3>GitHub</h3>
-            <p>@tuusuario</p>
+            <p>MarcoCordoba</p>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/tuusuario"
+            href="www.linkedin.com/in/marco-cordoba-"
             target="_blank"
             rel="noopener noreferrer"
             className="contacto-card"
@@ -47,7 +47,7 @@ const Contacto = () => {
               <LinkedIn />
             </div>
             <h3>LinkedIn</h3>
-            <p>linkedin.com/in/tuusuario</p>
+            <p>linkedin.com/in/marco-cordoba-</p>
           </a>
         </div>
 
@@ -65,4 +65,4 @@ const Contacto = () => {
   );
 };
 
-export default Contact
+export default Contacto
