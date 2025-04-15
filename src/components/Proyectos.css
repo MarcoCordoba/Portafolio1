@@ -110,7 +110,7 @@
 }
 
 .github-btn {
-  border: 2px solid #0A97F5;
+  border: 2px solid #555;
   background-color: transparent;
   color: #0A97F5;
   width: auto;
@@ -125,8 +125,9 @@
 }
 
 .github-btn:hover {
-  background-color: #0A97F5;
+  background-color: #168bde;
   color: #fff;
+  border-color: #168bde;
 }
 
 .github-btn svg {

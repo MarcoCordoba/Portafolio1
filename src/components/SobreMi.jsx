@@ -15,11 +15,9 @@ const SobreMi = () => {
                 <div className="cuadrado">
                     <h2>Experiencia</h2>
                     <div className="experiencia-item">
-                        <h3 className="experiencia-titulo">Programador Autodidacta <span>(2023 - Actualidad)</span></h3>
-                        <p className="experiencia-descripcion">
-                        Desarrollo de aplicaciones web en el ámbito backend y frontend, incluyendo tareas de testing, documentación técnica, 
-                        aplicación de patrones de diseño y estilos arquitectónicos.
-                        </p>
+                        <ul>
+                            <li className="experiencia-titulo">Programador Autodidacta <span>(2023 - Actualidad)</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>

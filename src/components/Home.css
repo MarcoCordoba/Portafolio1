@@ -1,37 +1,73 @@
 .home {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     padding: 100px 40px;
-    min-height: calc(95vh - 140px); 
+    min-height: calc(95vh - 140px);
     gap: 60px;
+    flex-wrap: wrap;
+}
+
+.home-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
 }
 
 .home-texto h1 {
     margin-bottom: 0.2rem;
+    font-size: 2.5rem;
 }
 
 .home-texto h2 {
     color: #110AF5;
     margin-top: 0.2rem;
+    font-size: 1.5rem;
 }
 
-img {
-    width: 320px; /* Tamaño original de la imagen */
+.home-imagen img {
+    width: 320px;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.iconos-redes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
 }
 
 .icono {
-    width: 90px;  /* Aumenta el tamaño */
-    height: 90px; /* Asegura que el tamaño sea uniforme */
-    margin-right: 15px; /* Agrega separación entre iconos */
+    width: 90px;
+    height: 90px;
     transition: transform 0.3s ease;
 }
 
 .icono:hover {
-    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    transform: scale(1.1);
 }
 
-/*paleta de colores #0A97F5  #120AF5 #0A4CF5 #0AE1F5 #A476F5 #5B86F5*/
+/* Botón Descargar CV */
+.download-cv-boton {
+    padding: 0.70rem 1.30rem;
+    background-color: #0A97F5;
+    color: white;
+    text-decoration: none;
+    font-weight: 350;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 0.8rem;
+    height: 15px;
+    align-items: center;
+}
+
+.download-cv-boton:hover {
+    background-color: #0A4CF5;
+    transform: translateY(-2px);
+}
+
+/* Paleta de colores de referencia:
+   #0A97F5, #120AF5, #0A4CF5, #0AE1F5, #A476F5, #5B86F5 */
