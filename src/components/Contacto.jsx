@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contacto.css";
-import Gmail from "./icons/Gmail";
+import CopiarCorreo from "./CopiarCorreo";
 import Github from "./icons/Github";
 import LinkedIn from "./icons/LinkedIn";
 
@@ -11,19 +11,8 @@ const Contacto = () => {
 
       <div className="contacto-contenido">
         <div className="contacto-enlaces">
-          <a
-            href="marco.cba2@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contacto-card"
-          >
-            <div className="icon-wrapper">
-              <Gmail />
-            </div>
-            <h3>Correo</h3>
-            <p>marco.cba2@gmail.com</p>
-          </a>
-
+          <CopiarCorreo />
+          
           <a
             href="https://github.com/MarcoCordoba"
             target="_blank"
@@ -38,7 +27,7 @@ const Contacto = () => {
           </a>
 
           <a
-            href="www.linkedin.com/in/marco-cordoba-"
+            href="https://www.linkedin.com/in/marco-cordoba-/"
             target="_blank"
             rel="noopener noreferrer"
             className="contacto-card"
@@ -65,4 +54,4 @@ const Contacto = () => {
   );
 };
 
-export default Contacto
+export default Contacto;
