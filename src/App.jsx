@@ -1,11 +1,11 @@
 import './App.css'
 import Home from './components/Home'
-import Navbar from './components/navbar'	
+import Navbar from './components/navbar/Navbar'	
 import SobreMi from './components/SobreMi'
 import Proyectos from './components/Proyectos'
 import Contacto from './components/Contacto'
 import Tecnologias from './components/Tecnologias'
-import Footer from './components/Footer'
+import Footer from './components/footer/Footer'
 
 function App() {
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contacto.css";
-import CopiarCorreo from "./CopiarCorreo";
+import CopiarCorreo from "./copiarCorreo/CopiarCorreo";
 import Github from "./icons/Github";
 import LinkedIn from "./icons/LinkedIn";
 
