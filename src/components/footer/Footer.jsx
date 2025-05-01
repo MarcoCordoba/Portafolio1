@@ -1,7 +1,7 @@
 import React from "react";
 import "../footer/Footer.css";
-import LinkedIn from "../icons/LinkedIn";
-import Github from "../icons/Github";
+import LinkedIn from "../../icons/LinkedIn";
+import Github from "../../icons/Github";
 
 const Footer = () => {
     return (

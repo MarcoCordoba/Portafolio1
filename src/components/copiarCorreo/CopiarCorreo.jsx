@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Gmail from '../icons/Gmail';
+import Gmail from '../../icons/Gmail';
 
 const CopiarCorreo = () => {
   const [copiado, setCopiado] = useState(false);

@@ -2,18 +2,18 @@ import React from "react";
 import "./proyectos.css";
 
 // Importando iconos desde la carpeta "icons"
-import Css from "./icons/Css"
-import Html5 from "./icons/Html5"
-import Python from "./icons/Python"
-import Django from "./icons/Django"
-import PostgreSQL from "./icons/PostgreSQL"
-import ReactI from "./icons/ReactI"
-import Javascript from "./icons/Javascript"
-import GitHub from "./icons/Github"
+import Css from "../../icons/Css"
+import Html5 from "../../icons/Html5"
+import Python from "../../icons/Python"
+import Django from "../../icons/Django"
+import PostgreSQL from "../../icons/PostgreSQL"
+import ReactI from "../../icons/ReactI"
+import Javascript from "../../icons/Javascript"
+import GitHub from "../../icons/Github"
 
 //Importando imagenes representativas de los proyectos
-import notetask from "../assets/images/notetask.jpg";
-import Negro from "../assets/Images/Negro.jpg"
+import notetask from "../../assets/images/notetask.jpg";
+import Negro from "../../assets/Images/Negro.jpg"
 
 
 const proyectos = [

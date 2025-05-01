@@ -1,16 +1,16 @@
 import React from "react";
 import './Tecnologias.css';	
-import Git from "./icons/Git"
-import Github from "./icons/Github"
-import Css from "./icons/Css"
-import Html5 from "./icons/Html5"
-import Python from "./icons/Python"
-import Django from "./icons/Django"
-import PostgreSQL from "./icons/PostgreSQL"
-import ReactI from "./icons/ReactI"
-import Javascript from "./icons/Javascript"
-import Bash from "./icons/Bash"
-import Notion from "./icons/Notion"
+import Git from "../../icons/Git"
+import Github from "../../icons/Github"
+import Css from "../../icons/Css"
+import Html5 from "../../icons/Html5"
+import Python from "../../icons/Python"
+import Django from "../../icons/Django"
+import PostgreSQL from "../../icons/PostgreSQL"
+import ReactI from "../../icons/ReactI"
+import Javascript from "../../icons/Javascript"
+import Bash from "../../icons/Bash"
+import Notion from "../../icons/Notion"
 
 const Tecnologias = () =>{
     return(

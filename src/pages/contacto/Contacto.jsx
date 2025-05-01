@@ -1,8 +1,8 @@
 import React from "react";
 import "./Contacto.css";
-import CopiarCorreo from "./copiarCorreo/CopiarCorreo";
-import Github from "./icons/Github";
-import LinkedIn from "./icons/LinkedIn";
+import CopiarCorreo from "../../components/copiarCorreo/CopiarCorreo";
+import Github from "../../icons/Github";
+import LinkedIn from "../../icons/LinkedIn";
 
 const Contacto = () => {
   return (
