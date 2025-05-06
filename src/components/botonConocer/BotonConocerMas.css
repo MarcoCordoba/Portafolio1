@@ -1,0 +1,40 @@
+.scroll-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #0A4CF5;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .scroll-indicator:hover {
+    opacity: 1;
+  }
+  
+  .scroll-text {
+    margin-bottom: 8px;
+    font-weight: 400;
+  }
+  
+  .arrow {
+    font-size: 1.5rem;
+    animation: bounce 2s infinite;
+    color: #0A4CF5;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(8px);
+    }
+  }
+  
