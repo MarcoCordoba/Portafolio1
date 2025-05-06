@@ -1,5 +1,6 @@
 import React from "react";
 import Perfil from '../../assets/images/Perfil.jpg';
+import CursorTitilante from "../../components/cursor/CursorTitilante";
 import './Home.css';
 import LinkedIn from "../../icons/LinkedIn";
 import Github from "../../icons/Github";
@@ -8,7 +9,7 @@ const Home = () => {
     return (
         <section className="home" id="home">
             <div className="home-texto">
-                <h1>Marco Cordoba</h1>
+                <CursorTitilante texto="Hola, soy Marco Córdoba" className = "titulo-principal" />
                 <h2>Full-Stack Developer</h2>
 
                 <div className="iconos-redes">
