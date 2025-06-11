@@ -11,6 +11,8 @@ import ReactI from "../../icons/ReactI"
 import Javascript from "../../icons/Javascript"
 import Bash from "../../icons/Bash"
 import Notion from "../../icons/Notion"
+import Jwt from "../../icons/Jwt"
+
 
 const Tecnologias = () =>{
     return(
@@ -32,6 +34,7 @@ const Tecnologias = () =>{
                         <Python/>                      
                         <Django/>            
                         <PostgreSQL/>
+                        <Jwt/>
                     </div>
                 </div>
                 <div className="card">
