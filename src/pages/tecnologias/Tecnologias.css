@@ -27,8 +27,8 @@
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  width: 350px;
-  height: 350px; /* Ajuste de altura para que se vea mejor */
+  width: 300px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* Esto asegura que el contenido se alinee al principio */
@@ -44,17 +44,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-top: 1rem; /* Menos espacio antes de los íconos */
 }
 
 .tecnologia-icons svg {
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   transition: transform 0.3s ease;
 }
 
 .tecnologia-icons svg:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 

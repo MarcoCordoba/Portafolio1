@@ -22,28 +22,28 @@ const Tecnologias = () =>{
                 <div className="card">
                     <h3>Frontend</h3>
                     <div className="tecnologia-icons">
-                        <Css/>
-                        <Html5/>
-                        <Javascript/>                     
-                        <ReactI/>                      
+                        <span title="CSS"><Css/></span>
+                        <span title="HTML"> <Html5/></span>
+                        <span title="JAVASCRIPT"><Javascript/> </span>
+                        <span title="REACT"> <ReactI/></span>                                             
                     </div>
                 </div>
                 <div className="card">
                     <h3>Backend</h3>
                     <div className="tecnologia-icons">
-                        <Python/>                      
-                        <Django/>            
-                        <PostgreSQL/>
-                        <Jwt/>
+                        <span title="PYTHON"> <Python/></span>
+                        <span title="DJANGO"> <Django/> </span>
+                        <span title="POSTGRESQL"><PostgreSQL/></span>
+                        <span title="JWT"><Jwt/></span>
                     </div>
                 </div>
                 <div className="card">
                     <h3>Herramientas</h3>
                     <div className="tecnologia-icons">
-                        <Git />
-                        <Github/>
-                        <Bash/>
-                        <Notion/>
+                        <span title="GIT"><Git /></span>
+                        <span title="GITHUB"><Github/></span>
+                        <span title="BASH"><Bash/></span>
+                        <span title="NOTION"><Notion/></span>                       
                     </div>
                 </div>
             </div>
