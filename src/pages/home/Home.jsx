@@ -1,8 +1,8 @@
 import React from "react";
+import './Home.css';
 import Perfil from '../../assets/images/Perfil.jpg';
 import CursorTitilante from "../../components/cursor/CursorTitilante";
 import BotonConocerMas from "../../components/botonConocer/BotonConocerMas";
-import './Home.css';
 import LinkedIn from "../../icons/LinkedIn";
 import Github from "../../icons/Github";
 
