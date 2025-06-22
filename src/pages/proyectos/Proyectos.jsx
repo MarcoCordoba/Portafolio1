@@ -11,7 +11,7 @@ import ReactI from "../../icons/ReactI";
 import Javascript from "../../icons/Javascript";
 import GitHub from "../../icons/Github";
 
-import notetask from "../../assets/images/notetask.jpg";
+import notetask from "../../assets/Imagenes_Proyectos/Notas/Login.png";
 import Negro from "../../assets/Images/Negro.jpg";
 
 const proyectos = [
