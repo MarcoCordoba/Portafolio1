@@ -39,7 +39,7 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .contacto-card:hover {
@@ -58,6 +58,7 @@
   font-size: 1rem;   /* Tamaño de fuente reducido */
   margin-bottom: 0.5rem;
   letter-spacing: 1px;
+  color: #000;
 }
 
 /* Subtítulo/descripción de la card */
@@ -72,7 +73,7 @@
 .contacto-mensaje {
   text-align: center;
   padding: 2rem;
-  background-color: #0A97F5;
+  background-color: #4472ff;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   max-width: 450px;
@@ -97,7 +98,7 @@
 .contacto-mensaje textarea {
   width: 100%;
   padding: 0.8rem;
-  border: 1px solid #0A97F5;
+  border: 1px solid #4472ff;
   border-radius: 12px;
   font-size: 1rem;
   outline: none;
@@ -124,7 +125,7 @@
 }
 
 .contacto-mensaje button:hover {
-  background-color: #120AF5;
+  background-color: #101b56;
 }
 
 /* Responsive: en dispositivos pequeños se ajusta la distribución */

@@ -19,7 +19,7 @@
 }
 
 .home-texto h2 {
-    color: #042988;
+    color: #1835c9;
     margin-top: 0.2rem;
     font-size: 1.65rem;
     font-weight: 600;
@@ -51,7 +51,7 @@
     display: flex;
     align-items: center;
     padding: 0.70rem 1.30rem;
-    background-color: #1d53f4;
+    background-color: #2347ff;
     color: white;
     text-decoration: none;
     font-weight: 300;
@@ -61,9 +61,20 @@
 }
 
 .download-cv-boton:hover {
-    background-color: #0341e0;
+    background-color: #1835c9;
     transform: translateY(-3px);
 }
 
 /* Paleta de colores de referencia:
-   #0A97F5, #120AF5, #0A4CF5, #0AE1F5, #A476F5, #5B86F5 */
+#eaf5ff
+#d9ecff
+#bbdaff
+#92bfff
+#6798ff
+#4472ff
+#2347ff
+#1837ea
+#1835c9
+#1c3393
+#101b56
+*/

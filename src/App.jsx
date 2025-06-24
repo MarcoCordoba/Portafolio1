@@ -6,6 +6,7 @@ import Proyectos from './pages/proyectos/Proyectos'
 import Contacto from './pages/contacto/Contacto'
 import Tecnologias from './pages/tecnologias/Tecnologias'
 import Footer from './components/footer/Footer'
+import '@fontsource-variable/rubik';
 
 function App() {
 
