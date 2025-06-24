@@ -1,17 +1,14 @@
 .tecnologias {
-  padding: 90px 60px;
+  padding: 50px;
   text-align: center;
-  min-height: 100vh; /* Asegura que la sección tenga altura suficiente */
   display: flex;
   flex-direction: column;
   justify-content: center; /* Centra el contenido en la sección */
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .tecnologias-titulo {
   color: #000000;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .cards-container {

@@ -10,9 +10,11 @@ import PostgreSQL from "../../icons/PostgreSQL";
 import ReactI from "../../icons/ReactI";
 import Javascript from "../../icons/Javascript";
 import GitHub from "../../icons/Github";
+import Jwt from "../../icons/Jwt";
 
 import notetask from "../../assets/Imagenes_Proyectos/Notas/Login.png";
 import Negro from "../../assets/Images/Negro.jpg";
+
 
 const proyectos = [
   {
@@ -54,6 +56,7 @@ const proyectos = [
       <Css />,
       <Javascript />,
       <ReactI />,
+      <Jwt/>
     ],
     github: [
       { url: "https://github.com/MarcoCordoba/app_notas.git" },
@@ -91,6 +94,9 @@ const Proyectos = () => {
                     {link.label} <GitHub />
                   </a>
                 ))}
+                <button className="proyecto-info-btn">
+                  Mas Info
+                </button>
               </div>
             </div>
           </div>

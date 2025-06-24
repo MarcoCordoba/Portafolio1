@@ -6,7 +6,7 @@
     min-height: calc(95vh - 140px);
     gap: 60px;
     flex-wrap: wrap;
-}
+
 
 .home-texto {
     display: flex;

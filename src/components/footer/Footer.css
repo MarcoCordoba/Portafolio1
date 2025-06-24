@@ -1,6 +1,5 @@
 .footer {
     background-color: #000000;
-    padding: 0 1rem;
     z-index: 1000;
     height: 70px;
     display: flex;
@@ -11,7 +10,7 @@
     left: 0;/*ocupa todo el ancho*/
     width: 100%;
     box-sizing: border-box; 
-    margin-top: 3rem;
+
 }
 
 .footer p {
