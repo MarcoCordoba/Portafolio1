@@ -1,4 +1,3 @@
-import React from "react";
 import './Tecnologias.css';	
 import Git from "../../icons/Git"
 import Github from "../../icons/Github"

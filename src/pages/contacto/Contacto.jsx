@@ -1,4 +1,3 @@
-import React from "react";
 import "./Contacto.css";
 import CopiarCorreo from "../../components/copiarCorreo/CopiarCorreo";
 import Github from "../../icons/Github";

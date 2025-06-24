@@ -16,7 +16,7 @@ const SobreMi = () => {
                     <h2>Experiencia</h2>
                     <div className="experiencia-item">
                         <ul>
-                            <li className="experiencia-titulo">Programador Autodidacta <span>(2023 - Actualidad)</span>: <span style={{ fontSize: '0.9em', color: '#555' }}>Desarrollo de
+                            <li className="experiencia-titulo">Programador Autodidacta <span>(2023 - Actualidad)</span>: <span style={{ fontSize: '0.9em', }}>Desarrollo de
                                 aplicaciones web, desde el diseño de la interfaz hasta la implementacion de api's y bases de datos.
                             </span>
                             </li>

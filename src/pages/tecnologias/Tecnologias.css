@@ -1,20 +1,17 @@
 .tecnologias {
-  padding: 50px;
+  padding: 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centra el contenido en la sección */
 }
 
 .tecnologias-titulo {
-  color: #000000;
   margin-bottom: 1.5rem;
 }
 
 .cards-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   gap: 2rem;
   flex-wrap: wrap; /* Permite que las cards bajen si no caben */
 }
@@ -28,13 +25,12 @@
   height: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Esto asegura que el contenido se alinee al principio */
 }
 
 .card h3 {
   margin-bottom: 1rem;
   margin-top: 0;
-  color: #000000;
+  font-weight: normal;
 }
 
 .tecnologia-icons {
@@ -48,7 +44,7 @@
 .tecnologia-icons svg {
   width: 65px;
   height: 65px;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
 }
 
 .tecnologia-icons svg:hover {

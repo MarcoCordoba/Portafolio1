@@ -15,9 +15,7 @@
   display: flex;
   gap: 2rem;
   justify-content: center;
-  align-items: stretch;
   width: 100%;
-  max-width: 900px;
   margin-top: 1rem;
 }
 
@@ -25,7 +23,6 @@
 .contacto-enlaces {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 1rem;
   flex: 1;
   max-width: 300px;  /* Se reduce el ancho para cards más pequeñas */
@@ -35,7 +32,6 @@
 .contacto-card {
   background-color: #ffffff;
   border-radius: 12px;
-  padding: 1rem;        /* Padding reducido */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   flex: 1;
   display: flex;
@@ -43,14 +39,13 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .contacto-card:hover {
   transform: scale(1.03);
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
 }
-
 
 /* Tamaño aumentado de los íconos pero ajustado a la nueva card */
 .icon-wrapper svg {
@@ -62,23 +57,19 @@
 .contacto-card h3 {
   font-size: 1rem;   /* Tamaño de fuente reducido */
   margin-bottom: 0.5rem;
-  color: #000000;
-  font-weight: bold;
   letter-spacing: 1px;
 }
 
 /* Subtítulo/descripción de la card */
 .contacto-card p {
-  font-size: 0.8rem;
-  color: black;
+  font-size: 0.9rem;
+  color: #000000;
   text-align: center;
   margin: 0;
 }
 
 /* Formulario a la derecha */
 .contacto-mensaje {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   padding: 2rem;
   background-color: #0A97F5;
@@ -87,7 +78,6 @@
   max-width: 450px;
   max-height: 430px;
   width: 100%;
-  flex: 1;
 }
 
 .contacto-mensaje h3 {
