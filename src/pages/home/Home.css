@@ -6,37 +6,33 @@
     min-height: calc(95vh - 140px);
     gap: 60px;
     flex-wrap: wrap;
-
+}
 
 .home-texto {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    max-width: 500px;
 }
 
 .titulo-principal {
-    margin-bottom: 0.2rem;
     font-size: 2.2rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .home-texto h2 {
     color: #042988;
     margin-top: 0.2rem;
     font-size: 1.65rem;
+    font-weight: 600;
 }
 
 .home-imagen img {
     width: 320px;
-    height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .iconos-redes {
     display: flex;
-    align-items: center;
     gap: 15px;
     margin: 20px 0;
 }
@@ -44,31 +40,29 @@
 .icono {
     width: 40px;
     height: 40px;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
 .icono:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .download-cv-boton {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 0.70rem 1.30rem;
     background-color: #1d53f4;
     color: white;
     text-decoration: none;
-    font-weight: 350;
+    font-weight: 300;
     border-radius: 12px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.2s ease, transform 0.2s ease;
     font-size: 1rem;
-    height: auto;
 }
 
 .download-cv-boton:hover {
     background-color: #0341e0;
-    transform: translateY(-4px);
+    transform: translateY(-3px);
 }
 
 /* Paleta de colores de referencia:

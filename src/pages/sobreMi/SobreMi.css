@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     min-height: 70vh;
-    padding: 40px 20px;
+    padding: 40px;
 }
 
 .sobre-mi-wrapper {
@@ -11,17 +11,14 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    max-width: 1300px;
     width: 100%;
 }
 
 .cuadrado {
     background: #ffffff;
     padding: 2.5rem;
-    border-radius: 15px;
+    border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    text-align: center;
-    flex: 1 1 400px;
     max-width: 500px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -33,15 +30,12 @@
 
 h2 {
     font-size: 2rem;
-    color: #000000;
-    margin-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 p {
     font-size: 1.1rem;
-    color: #000000;
-    line-height: 1.6;
+    line-height: 1.3;
 }
 
 .experiencia-item {
@@ -49,18 +43,14 @@ p {
     margin-top: 1rem;
   }
   
-  .experiencia-titulo {
+.experiencia-titulo {
     font-size: 1.3rem;
     font-weight: 600;
-    margin-bottom: 0.6rem;
-    color: #222;
-  }
+}
   
-  .experiencia-titulo span {
-    font-weight: 400;
-    font-size: 0.95rem;
-    color: #666;
-    margin-left: 0.5rem;
-  }
+.experiencia-titulo span {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
   
   
