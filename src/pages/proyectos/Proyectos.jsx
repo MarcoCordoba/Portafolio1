@@ -1,4 +1,4 @@
-import React from "react";
+import React, {use, useState} from "react";
 import "./proyectos.css";
 
 
@@ -15,11 +15,13 @@ import Jwt from "../../icons/Jwt";
 import notetask from "../../assets/Imagenes_Proyectos/Notas/Login.png";
 import Negro from "../../assets/Images/Negro.jpg";
 
+import Modal from "../../components/modal/Modal"
 
 const proyectos = [
   {
     titulo: "Gestor de Reservas",
     descripcion: "Aplicación web para que un usuario gestione el alquiler temporal de inmuebles.",
+    descripcionLarga: "esta es una descripcion larga de prueba",
     imagen: notetask,
     tecnologias: [
       <Django />,
@@ -38,6 +40,7 @@ const proyectos = [
   {
     titulo: "Portafolio Web",
     descripcion: "Portafolio personal realizado para demostrar mis habilidades como desarrollador.",
+    descripcionLarga: "esta es una descripcion larga de prueba",
     imagen: Negro,
     tecnologias: [<Html5 />, <Css />, <Javascript />, <ReactI />],
     github: [
@@ -47,6 +50,7 @@ const proyectos = [
   {
     titulo: "Gestor de Tareas",
     descripcion: "Aplicación para administrar las tareas de un usuario registrado y logueado.",
+    descripcionLarga: "esta es una descripcion larga de prueba",
     imagen: Negro,
     tecnologias: [
       <Python />,
@@ -65,6 +69,20 @@ const proyectos = [
 ];
 
 const Proyectos = () => {
+  
+ 
+  const[isModalOpen, setIsModalOpen] = useState(false);
+  const[proyectoActivo, setProyectoActivo] = useState(null);
+
+
+  const handleOpen = (proyecto) => {
+    setProyectoActivo(proyecto);
+    setIsModalOpen(true);
+  };
+  
+  const handleClose = () => setIsModalOpen(false);
+  
+ 
   return (
     <section className="proyectos" id="Proyectos">
       <h2 className="proyectos-title">Proyectos</h2>
@@ -94,14 +112,23 @@ const Proyectos = () => {
                     {link.label} <GitHub />
                   </a>
                 ))}
-                <button className="proyecto-info-btn">
+                <button onClick={() => handleOpen(proyecto)}   className="proyecto-info-btn">
                   Mas Info
                 </button>
+
               </div>
             </div>
           </div>
         ))}
       </div>
+      <Modal isOpen={isModalOpen} onClose={handleClose}>
+        {proyectoActivo && (
+          <div>
+            <h2>{proyectoActivo.titulo}</h2>
+            <p>{proyectoActivo.descripcionLarga}</p>
+          </div>
+        )}
+      </Modal>
     </section>
   );
 };
