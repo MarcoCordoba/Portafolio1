@@ -1,6 +1,8 @@
 import React, {use, useState} from "react";
 import "./proyectos.css";
 
+import Carrusel  from "../../components/carrusel/Carrusel";
+import Modal from "../../components/modal/Modal"
 
 import Css from "../../icons/Css";
 import Html5 from "../../icons/Html5";
@@ -10,19 +12,24 @@ import PostgreSQL from "../../icons/PostgreSQL";
 import ReactI from "../../icons/ReactI";
 import Javascript from "../../icons/Javascript";
 import GitHub from "../../icons/Github";
-import Jwt from "../../icons/Jwt";
+import Jwt from "../../icons/Jwt";  
 
-import notetask from "../../assets/Imagenes_Proyectos/Notas/Login.png";
+import notetask_Login from "../../assets/Imagenes_Proyectos/Notas/Login.png";
+import notetask_Create  from "../../assets/Imagenes_Proyectos/Notas/Create.png";
+import notetask_Edit from "../../assets/Imagenes_Proyectos/Notas/Edit.png";
+import notetask_Home from "../../assets/Imagenes_Proyectos/Notas/Home.png";
+import notetask_Register from "../../assets/Imagenes_Proyectos/Notas/Register.png";
+
 import Negro from "../../assets/Images/Negro.jpg";
 
-import Modal from "../../components/modal/Modal"
 
-const proyectos = [
+const proyectos = [ 
   {
     titulo: "Gestor de Reservas",
-    descripcion: "Aplicación web para que un usuario gestione el alquiler temporal de inmuebles.",
-    descripcionLarga: "esta es una descripcion larga de prueba",
-    imagen: notetask,
+    descripcion: "Aplicación web para gestionar el alquiler temporal de inmuebles.",
+    descripcionLarga: "Aplicacion web el cual un usuario se puede registrarse y registrar inmuebles, el cual luego podran registrarse el ingreso inquilinos en una fecha determinada",
+    imagen: [notetask_Home],
+    imagenes: [notetask_Create, notetask_Edit, notetask_Home, notetask_Login, notetask_Register],
     tecnologias: [
       <Django />,
       <Python />,
@@ -125,7 +132,33 @@ const Proyectos = () => {
         {proyectoActivo && (
           <div>
             <h2>{proyectoActivo.titulo}</h2>
-            <p>{proyectoActivo.descripcionLarga}</p>
+             {proyectoActivo.imagenes && proyectoActivo.imagenes.length > 0 && (
+            <Carrusel imagenes={proyectoActivo.imagenes} />
+            )}
+            <p className="descripcion-larga">{proyectoActivo.descripcionLarga}</p>
+            <div className="proyecto-tech">
+                {proyectoActivo.tecnologias.map((icono, i) => (
+                  <span className="tech-icon" key={i}>
+                    {icono}
+                  </span>
+                ))}
+            </div>
+            
+            <div className="proyecto-links">
+                {proyectoActivo.github.map((link, i) => (
+                  <a
+                    key={i}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="proyecto-icon github-btn"
+                  >
+                    {link.label} <GitHub />
+                  </a>
+                ))}
+            </div>
+            
+
           </div>
         )}
       </Modal>
