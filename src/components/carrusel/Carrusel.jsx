@@ -15,9 +15,9 @@ const Carrusel = ({ imagenes }) => {
 
   return (
     <div className="carrusel">
-      <button className="carrusel-btn" onClick={anterior}>←</button>
+      <button className="carrusel-btn izquierda" onClick={anterior}>←</button>
       <img src={imagenes[index]} alt={`img-${index}`} className="carrusel-img" />
-      <button className="carrusel-btn" onClick={siguiente}>→</button>
+      <button className="carrusel-btn derecha" onClick={siguiente}>→</button>
     </div>
   );
 };

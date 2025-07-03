@@ -21,27 +21,31 @@ import notetask_Home from "../../assets/Imagenes_Proyectos/Notas/Home.png";
 import notetask_Register from "../../assets/Imagenes_Proyectos/Notas/Register.png";
 
 import Negro from "../../assets/Images/Negro.jpg";
+import JWT from "../../icons/Jwt";
 
 
 const proyectos = [ 
   {
-    titulo: "Gestor de Reservas",
-    descripcion: "Aplicación web para gestionar el alquiler temporal de inmuebles.",
-    descripcionLarga: "Aplicacion web el cual un usuario se puede registrarse y registrar inmuebles, el cual luego podran registrarse el ingreso inquilinos en una fecha determinada",
+    titulo: "Gestor de Notas",
+    descripcion: "Aplicación web para gestionar notas de un usuario.",
+    descripcionLarga: `Aplicación web desarrollada para que los usuarios puedan registrarse e iniciar sesión de forma segura usando 
+    la tecnologia de JWT para validar a los usuarios y permisos del mismo.
+    Una vez autenticados, tienen la posibilidad de crear, editar, eliminar y visualizar notas personales, gestionando su contenido
+    de manera simple y eficiente desde una interfaz intuitiva.`,
     imagen: [notetask_Home],
-    imagenes: [notetask_Create, notetask_Edit, notetask_Home, notetask_Login, notetask_Register],
+    imagenes: [notetask_Home, notetask_Create, notetask_Edit, notetask_Login, notetask_Register],
     tecnologias: [
       <Django />,
       <Python />,
-      <PostgreSQL />,
+      <JWT/>,
       <Html5 />,
       <Css />,
       <Javascript />,
       <ReactI />,
     ],
     github: [
-      {url: "https://github.com/MarcoCordoba/front_gestor_reservas" },
-      {url: "https://github.com/MarcoCordoba/back_gestor_reservas" },
+      {url: "https://github.com/MarcoCordoba/App-Notas-Frontend" },
+      {url: "https://github.com/MarcoCordoba/App-Notas-Backend" },
     ],
   },
   {
